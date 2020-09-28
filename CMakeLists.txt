@@ -5,6 +5,7 @@ project(find_gem
         VERSION 0.1
         DESCRIPTION "Test project to for FindGem.cmake")
 find_package(Rock)
+find_package(gem COMPONENTS rice)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
